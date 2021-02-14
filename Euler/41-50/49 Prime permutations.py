@@ -40,7 +40,7 @@ ddd ={}
 for i in sorted(dd.keys()):
     if  i > 0 and len(dd[i]) >2 and i >1000:
         ddd[i] = dd[i]
-for i in ddd.keys():
-    print("{}   {}".format(i,ddd[i]))
+for k, v in ddd.items():
+    print("{}   {}".format(k, v))
 
 print(a)
