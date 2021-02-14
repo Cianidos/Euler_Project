@@ -1,7 +1,7 @@
 x = 1
 i = 1
 while True:
-    ll = list()
+    ll = []
     i+=1
     x+=i
     for j in range(1, round(x**0.5)+1):

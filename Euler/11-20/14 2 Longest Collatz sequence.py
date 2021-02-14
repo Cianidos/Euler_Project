@@ -1,5 +1,5 @@
 import operator
-ll = list()
+ll = []
 def collatz(len, num):
     if num >= 10**6:
         ll.append((num, len))

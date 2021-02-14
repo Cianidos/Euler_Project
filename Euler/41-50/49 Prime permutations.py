@@ -22,7 +22,7 @@ def primes_gen(n):
 
 
 
-dd = dict()
+dd = {}
 a = permutations("123456789",4)
 a = [int(i[0]+i[1]+i[2]+i[3]) for i in a]
 b = list(primes_gen(10000))
@@ -35,7 +35,7 @@ for i in a:
         else:
             dd[i-j] = [i,j]
 
-ddd =dict()
+ddd ={}
 
 for i in sorted(dd.keys()):
     if  i > 0 and len(dd[i]) >2 and i >1000:

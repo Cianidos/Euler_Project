@@ -1,7 +1,7 @@
 max = [0,0]
 for i in range(1,10**6+1):
     x = i
-    ll = list()
+    ll = []
     ll.append(x)
     while x!=1:
         if x%2 == 0:
