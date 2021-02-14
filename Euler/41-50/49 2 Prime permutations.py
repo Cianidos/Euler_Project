@@ -14,11 +14,11 @@ def primes_gen(n):
     sum = 0
     for ind, val in enumerate(primes):
         if val is True and ind > n ** 0.5 + 1:
-            if ind>1000 and not "0" in str(ind):
+            if ind>1000 and "0" not in str(ind):
                 yield (ind)
         elif val is True:
             primes[ind * 2::ind] = [False] * (((n - 1) // ind) - 1)
-            if ind > 1000 and not "0" in str(ind):
+            if ind > 1000 and "0" not in str(ind):
                 yield (ind)
 
 
