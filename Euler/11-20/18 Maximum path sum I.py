@@ -3,7 +3,8 @@ def max_path_sum(triangle):
     #des sous listes (représentant les lignes) qui contiennent
     #les nombres de chaque ligne
     triangle = [[int(j) for j in i.split()] for i in triangle.split("\n")]
-    [print(i) for i in triangle]
+    for i in triangle:
+        print(i)
     print()
     #Inversion de la liste triangle
     triangle.reverse()
