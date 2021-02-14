@@ -7,7 +7,8 @@ def max_path_sum(triangle):
     print()
     #Inversion de la liste triangle
     triangle.reverse()
-    [print(i) for i in triangle]
+    for i in triangle:
+        print(i)
     #Teste de toutes les valeurs à partir de la seconde ligne
     #pour trouver quel est la somme maximale possible en partant de ces valeurs
     for i in range(1, len(triangle)):
