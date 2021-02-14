@@ -1,5 +1,5 @@
 def gcm(a, b):
-    while a != 0 and b != 0:
+    while 0 not in (a, b):
         if a > b: a %= b
         else: b %= a
     return max(a,b)
