@@ -1,4 +1,4 @@
-from itertools import combinations, combinations_with_replacement,permutations
+from itertools import permutations
 
 
 def primes_gen(n):

@@ -1,5 +1,4 @@
-from itertools import combinations, combinations_with_replacement,permutations
-import numpy as np
+from itertools import permutations
 
 
 def primes_gen(n):
